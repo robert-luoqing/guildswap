@@ -1,0 +1,73 @@
+.title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.outerContainer {
+  height: 100%;
+}
+
+.container {
+  padding-bottom: 300px;
+}
+
+.innerContainer {
+  padding: 10px 40px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container input {
+  padding: 10px 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+}
+
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.optionItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionItem img {
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+}
+
+.optionItem div {
+  flex: 1;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.contentContainer {
+  /* padding-left: 30px; */
+  text-align: left;
+}
+
+.titleArea {
+  padding: 10px 0 5px 2px;
+}
+.contentTitle {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.titleTip {
+  font-size: 12px;
+}
+
+.actionArea {
+  padding-top: 10px;
+}
